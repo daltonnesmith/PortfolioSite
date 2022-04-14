@@ -217,16 +217,22 @@
         <!--Contact Section-->
         <section id="Contact" class="p-1 text-center bg-dark">
             <div class="container">
-                <hw class="text-center text-white">Contact:</hw>
-                <p class="lead text-center text-white mb-5 p-2">
-                    <a href="#"><i class="bi bi-linkedin text-light mx-1"></i></a>
-                    <a href="#"><i class="bi bi-github text-light mx-1 "></i></a>
-                    <a href="#"><i class="bi bi-phone text-light mx-1"></i></a>
-                    <a href="#"><i class="bi bi-envelope text-light mx-1"></i></a>
-                </p>
-                <p class="text-light text-center">
-                    Over eight years experience as a U.S. Army Officer. I am a Leader, Professional, and have a Growth Mindset.
-                </p>
+                <div class="row">
+                <hw class="text-center text-white col-xs-6">Contact:</hw>
+                <div class="col-lg-6">
+                    <p class="lead text-center text-white mb-5 p-2 col-xs-6" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#"><i class="bi bi-phone text-light mx-1 "></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="lead text-center text-white mb-5 p-2 col-xs-6" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <a href="#"><i class="bi bi-envelope text-light mx-1"></i></a>
+                    </p>
+                </div>
+                    <p class="text-light text-center">
+                        Over eight years experience as a U.S. Army Officer. I am a Leader, Professional, and have a Growth Mindset.
+                    </p>
+                </div>
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-12">
                         <div class="card bg-dark">
@@ -283,7 +289,7 @@
                 zoom: 6
             });
         </script>
-
+<!--Arrow to Top-->
         <footer class="p-5 bg-dark text-center text-white position-relative">
             <div class="container">
                 <p>
@@ -294,5 +300,45 @@
                     </a>
                 </p>
             </div>
+<!--Modal Play-->
+            <Section>
+
+            -->
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Personal Cell</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Reach me at: 803-201-5819
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Modal 2-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Email</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Email me @ dalton.m.nesmith1@outlook.com
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </Section>
     </body>
 </html>
